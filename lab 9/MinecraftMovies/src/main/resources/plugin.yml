@@ -1,0 +1,16 @@
+name: MinecraftMovies
+version: 1.0
+author: Adiber
+main: at.adiber.main.Main
+commands:
+  cc:
+    description: Creates a new Canvas
+  start:
+    description: Start a video
+    usage: /start <canvas> <video>
+  render:
+    description: Render a video for a canvas
+    usage: /render <type> <name>
+  verify:
+    description: Verify with the MMovie Discord bot
+    usage: /verify

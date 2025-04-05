@@ -1,0 +1,220 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "torchdiffeq",
+            "torchdiffeq._impl",
+            "torchdiffeq._impl.adams",
+            "torchdiffeq._impl.adjoint",
+            "torchdiffeq._impl.dopri5",
+            "torchdiffeq._impl.fixed_adams",
+            "torchdiffeq._impl.fixed_grid",
+            "torchdiffeq._impl.interp",
+            "torchdiffeq._impl.misc",
+            "torchdiffeq._impl.odeint",
+            "torchdiffeq._impl.rk_common",
+            "torchdiffeq._impl.solvers",
+            "torchdiffeq._impl.tsit5"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "torchdiffeq": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.adjoint",
+            "torchdiffeq._impl.fixed_adams",
+            "torchdiffeq._impl.fixed_grid"
+        ],
+        "imports": [
+            "torchdiffeq._impl",
+            "torchdiffeq._impl.odeint"
+        ],
+        "name": "torchdiffeq",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/__init__.py"
+    },
+    "torchdiffeq._impl": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq",
+            "torchdiffeq._impl.adjoint",
+            "torchdiffeq._impl.fixed_adams",
+            "torchdiffeq._impl.fixed_grid"
+        ],
+        "imports": [
+            "torchdiffeq._impl.adjoint",
+            "torchdiffeq._impl.odeint"
+        ],
+        "name": "torchdiffeq._impl",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/__init__.py"
+    },
+    "torchdiffeq._impl.adams": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.odeint"
+        ],
+        "imports": [
+            "torchdiffeq._impl.misc",
+            "torchdiffeq._impl.solvers"
+        ],
+        "name": "torchdiffeq._impl.adams",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/adams.py"
+    },
+    "torchdiffeq._impl.adjoint": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl"
+        ],
+        "imports": [
+            "torchdiffeq",
+            "torchdiffeq._impl",
+            "torchdiffeq._impl.misc",
+            "torchdiffeq._impl.odeint"
+        ],
+        "name": "torchdiffeq._impl.adjoint",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/adjoint.py"
+    },
+    "torchdiffeq._impl.dopri5": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.odeint"
+        ],
+        "imports": [
+            "torchdiffeq._impl.interp",
+            "torchdiffeq._impl.misc",
+            "torchdiffeq._impl.rk_common",
+            "torchdiffeq._impl.solvers"
+        ],
+        "name": "torchdiffeq._impl.dopri5",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/dopri5.py"
+    },
+    "torchdiffeq._impl.fixed_adams": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.odeint"
+        ],
+        "imports": [
+            "torchdiffeq",
+            "torchdiffeq._impl",
+            "torchdiffeq._impl.misc",
+            "torchdiffeq._impl.rk_common",
+            "torchdiffeq._impl.solvers"
+        ],
+        "name": "torchdiffeq._impl.fixed_adams",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/fixed_adams.py"
+    },
+    "torchdiffeq._impl.fixed_grid": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.odeint"
+        ],
+        "imports": [
+            "torchdiffeq",
+            "torchdiffeq._impl",
+            "torchdiffeq._impl.rk_common",
+            "torchdiffeq._impl.solvers"
+        ],
+        "name": "torchdiffeq._impl.fixed_grid",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/fixed_grid.py"
+    },
+    "torchdiffeq._impl.interp": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.dopri5"
+        ],
+        "imports": [
+            "torchdiffeq._impl.misc"
+        ],
+        "name": "torchdiffeq._impl.interp",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/interp.py"
+    },
+    "torchdiffeq._impl.misc": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.adams",
+            "torchdiffeq._impl.adjoint",
+            "torchdiffeq._impl.dopri5",
+            "torchdiffeq._impl.fixed_adams",
+            "torchdiffeq._impl.interp",
+            "torchdiffeq._impl.odeint",
+            "torchdiffeq._impl.rk_common",
+            "torchdiffeq._impl.solvers",
+            "torchdiffeq._impl.tsit5"
+        ],
+        "name": "torchdiffeq._impl.misc",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/misc.py"
+    },
+    "torchdiffeq._impl.odeint": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq",
+            "torchdiffeq._impl",
+            "torchdiffeq._impl.adjoint"
+        ],
+        "imports": [
+            "torchdiffeq._impl.adams",
+            "torchdiffeq._impl.dopri5",
+            "torchdiffeq._impl.fixed_adams",
+            "torchdiffeq._impl.fixed_grid",
+            "torchdiffeq._impl.misc",
+            "torchdiffeq._impl.tsit5"
+        ],
+        "name": "torchdiffeq._impl.odeint",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/odeint.py"
+    },
+    "torchdiffeq._impl.rk_common": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.dopri5",
+            "torchdiffeq._impl.fixed_adams",
+            "torchdiffeq._impl.fixed_grid",
+            "torchdiffeq._impl.tsit5"
+        ],
+        "imports": [
+            "torchdiffeq._impl.misc"
+        ],
+        "name": "torchdiffeq._impl.rk_common",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/rk_common.py"
+    },
+    "torchdiffeq._impl.solvers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.adams",
+            "torchdiffeq._impl.dopri5",
+            "torchdiffeq._impl.fixed_adams",
+            "torchdiffeq._impl.fixed_grid",
+            "torchdiffeq._impl.tsit5"
+        ],
+        "imports": [
+            "torchdiffeq._impl.misc"
+        ],
+        "name": "torchdiffeq._impl.solvers",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/solvers.py"
+    },
+    "torchdiffeq._impl.tsit5": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "torchdiffeq._impl.odeint"
+        ],
+        "imports": [
+            "torchdiffeq._impl.misc",
+            "torchdiffeq._impl.rk_common",
+            "torchdiffeq._impl.solvers"
+        ],
+        "name": "torchdiffeq._impl.tsit5",
+        "path": "/mnt/d/kalisharepoint/lab9/torchdiffeq/torchdiffeq/_impl/tsit5.py"
+    }
+}
